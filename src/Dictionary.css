@@ -1,18 +1,28 @@
+body {
+  background: #a78295;
+  background: linear-gradient(
+    90deg,
+    rgb(31, 18, 37) 0%,
+    rgba(167, 130, 149, 0.927608543417367) 35%,
+    rgba(221, 208, 223, 1) 100%
+  );
+}
 .Dictionary section {
-  background: white;
+  background: #ecd9edab;
   padding: 30px;
-  border-radius: 6px;
-  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
   margin: 20px 0;
 }
 .Dictionary h1 {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 .Dictionary input {
   width: 100%;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 6px 10px;
   color: #333;
   border: 1px solid #ddd;
